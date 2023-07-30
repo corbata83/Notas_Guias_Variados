@@ -1,0 +1,67 @@
+#	-Averiguar que tipo de variable es : altura = 1.75
+
+altura = 1.75
+print(type(altura))
+
+#	-Crear una lista de nombre "datos_varios" con los elementos:
+#	"Juan" - 18.75 - True - "Maria" - 168
+
+datos_varios = ["Juan", 18.75, True, "Maria", 168]
+
+#	-Averiguar en que posicion se encuentra el elemento 'True'
+
+print(datos_varios.index(True))
+
+#	-Averiguar que elemento se encuentra en la posicion -3
+
+print(datos_varios[-3])
+
+#	-Imprimir desde el 2do elemento hasta el anteultimo
+
+print(datos_varios[1:-1])
+
+#	-Imprimir toda la lista usando el indice
+
+print(datos_varios[:])
+
+#	-Agregar el elemento False al final de la lista e imprimir
+
+datos_varios.append(False)
+print(datos_varios)
+
+#	-Agregar y ubicar el elemento "Nano" en 4to lugar e imprimir
+
+datos_varios.insert(3, "Nano")
+print(datos_varios)
+
+#	-Agregar los elementos '138' - "Arnaldo" - '11.77' - 'True' al final de la lista
+
+datos_varios.extend([138, "Arnaldo", 11.77, True])
+print(datos_varios)
+
+#	-Imprimir en que posicion se encuentra el elemento '11.77' e imprimir
+
+print(datos_varios.index(11.77))
+
+#	-Informar (True o False) si el elemento "Nadia" se encuentra en la lista
+
+print("Nadia" in datos_varios)
+
+#	-Eliminar de la lista el elemento '168' e imprimir
+
+datos_varios.remove(168)
+print(datos_varios)
+
+#	-Eliminar el ultimo elemento de la lista
+
+datos_varios.pop()
+print(datos_varios)
+
+#	-Crear una segunda lista de nombre lista_agregada con los elementos '1' - '1.2' - '1.3'
+
+lista_agregada = [1, 1.2, 1.3]
+
+#	-Unir la lista creada a la anterior en una nueva lista e imprimirla
+
+Nueva_Lista = datos_varios + lista_agregada
+print(Nueva_Lista)

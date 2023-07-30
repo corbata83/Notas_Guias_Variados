@@ -1,0 +1,36 @@
+Examen teorico:				NOTA: 9.375
+1- ¿Que tipos de datos se trabajan en Python?
+2- ¿En que categorias se dividen los numeros?
+3- ¿Como se añade un comentario/observacion?
+4- ¿Cuantos tipos de datos existen y cuales son?
+5- ¿Cual es el comando para saber de que tipo es una variable?
+6- ¿Que utilidad tienen los simbolos '=' y '==' ?
+7- ¿Que son las listas?
+8- ¿Cual es la sintaxis de una lista?
+9- ¿Que es un indice y como se utiliza?
+10- ¿Cual es la funcion y sintaxis del comando 'append' ?
+11- ¿Cual es la funcion y sintaxis del comando 'insert' ?
+12- ¿Cual es la funcion y sintaxis del comando 'extend' ?
+13- ¿Cual es la funcion y sintaxis del comando 'index' ?
+14- ¿Como saber si un elemento esta en la lista?
+15- ¿Cual es la funcion y sintaxis del comando 'remove' ?
+16- ¿Cual es la funcion y sintaxis del comando 'pop' ?
+17- ¿Como puedo unir dos listas distintas?
+
+Examen practico:
+	-Averiguar que tipo de variable es : altura = 1.75
+	-Crear una lista de nombre "datos_varios" con los elementos:
+	"Juan" - 18.75 - True - "Maria" - 168
+	-Averiguar en que posicion se encuentra el elemento 'True'
+	-Averiguar que elemento se encuentra en la posicion -3
+	-Imprimir desde el 2do elemento hasta el anteultimo
+	-Imprimir toda la lista usando el indice
+	-Agregar el elemento False al final de la lista e imprimir
+	-Agregar y ubicar el elemento "Nano" en 4to lugar e imprimir
+	-Agregar los elementos '138' - "Arnaldo" - '11.77' - 'True' al final de la lista
+	-Imprimir en que posicion se encuentra el elemento '11.77' e imprimir
+	-Informar (True o False) si el elemento "Nadia" se encuentra en la lista
+	-Eliminar de la lista el elemento '168' e imprimir
+	-Eliminar el ultimo elemento de la lista
+	-Crear una segunda lista de nombre lista_agregada con los elementos '1' - '1.2' - '1.3'
+	-Unir la lista creada a la anterior en una nueva lista e imprimirla

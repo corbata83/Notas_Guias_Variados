@@ -1,0 +1,64 @@
+1- Se trabajan datos de tipo numeros, textos y listas
+
+2- Los numeros se dividen en dos categorias, enteros y flotantes (decimales los cuales
+se representan con punto en lugar de la coma, por ej 1.75)
+
+3- Los comentarios o agregados que no modifican el codigo se escriben con #
+
+4- Los datos se dividen en 3 categorias:
+	a- Numeros (enteros/flotantes/complejos)
+	b- Textos (strings)
+	c- Booleanos (True/False)
+
+5- El comando que devuelve el tipo de variable consultada es 'type(variable)'
+	se puede utilizar el comando 'print' para visualizarlo en la consola
+
+6- El simbolo '=' tiene la funcion de marcar una asignacion (por ej variable = 4)
+   El simbolo '==' realiza una comparacion de dos elementos ( a == "m")
+
+7- Las listas son una estructura de dato que puede incluir desde cero elementos, uno, hasta una gran
+cantidad de estos, pudiendo ser estos de distintos tipos (textos, numeros, listas, strings)
+	
+8- Una lista se compone del nombre de la lista, un signo de asignacion '=' y el conjunto de 
+los elementos que la componen, separados con una coma, delimitando con el signo de
+corchetes '[]' ej:
+	miLista = [elem1, elem2, elem3...]
+
+9- El indice se consulta con una ubicacion y devuelve el elemento, en Python el primer elemento
+de una lista es 0, el segundo es 1 y asi sucesivamente. Se puede indexar de forma inversa, 
+siendo el ultimo elemento de la lista -1, el anterior -2, etc. Ej:
+print(miLista[2])	devuelve el elemento 'elem3'
+
+10- El comando 'append' agrega un elemento en el ultimo lugar de la lista llamada, la sintaxis
+es nombrar la lista seguida de .append() y entre parentesis el elemento agregado. Ej:
+	miLista.append(elem4)
+
+11- El comando 'insert' inserta (como la palabra lo dice), un elemento en una ubicacion
+determinada en la sintaxis, se escribe llamando a la lista seguida de .insert('posicion a
+insertar',elemX) en 1er lugar va la ubicacion, separado por una coma y luego el elemento.Ej
+	miLista.insert(18, elem19)
+
+12- El comando 'extend' se utiliza para agregar mas de un elemento a la lista, colocandose
+estos al final de la lista original. Su sintaxis es similar a los anteriores, con la diferencia
+de colocar los elementos dentro de corchetes. Ej:
+	miLista.extend([elem5, elem6, elem7])
+
+13- El comando 'index' se utiliza para informar la posicion de un elemento dentro de una lista.
+Se utiliza de la siguiente forma:
+	miLista.index(elem4) 		devuelve el numero de ubicacion del elemento
+
+14- Para saber si un determinado elemento se encuentra en la lista, se utiliza el comando 'in'
+	print(elem3 in miLista)		Devuelve True si se encuentra, False si no esta.
+
+15- El comando 'remove' se utiliza para eliminar un determinado elemento de la lista.
+Su sintaxis es:
+	miLista.remove(elem5)
+
+16- El comando 'pop' sirve para eliminar el ultimo elemento de una lista. Su sintaxis es:
+	miLista.pop()		no lleva argumento ya que esta definido el ultimo elemento
+
+17- Para unir dos listas distintas se puede utilizar el operador '+' entre ambas y nombrando
+una nueva lista. Ej:
+	miLista3 = miLista1 + miLista2
+
+

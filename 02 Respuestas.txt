@@ -1,0 +1,67 @@
+TUPLAS:
+1- Las tuplas son agrupaciones de elementos similares a las listas, pero inmutables, es decir no se pueden modificar directamente.
+Su sintaxis consiste en el nombre de la tupla, seguido de un '='
+Se abre parentesis, se colocan los elementos separados por una
+coma y se cierra parentesis. La colocacion de parentesis es opcional, ya que si no se colocan, Python asume que se trata de una tupla, pero se aconseja colocarlos para evitar confusiones.
+ej:
+	tupla = (elem1, elem2, elem3...)
+
+2-a- Falso
+b- Verdadero
+c- Verdadero
+d- Verdadero
+e- Verdadero
+
+3- Para modificar una tupla, primero se debe convertir a una lista usando el debido comando, hacer la modificacion y reconvertir a una tupla.
+4- Para indexar un elemento, al igual que las listas, se usa el
+comando 'index()', colocando primero el nombre de la tupla y en los parentesis el objeto. Ej:    tupla.index(elem1)
+Y retorna la ubicacion de dicho elemento
+5- Para consultar si un elemento se encuentra en la tupla se usa
+la siguiente instruccion: 'elem1 in tupla'. Devuelve True o False segun este o no.
+6- Para contar la cantidad de elementos de una tupla se usa el
+comando 'count()' colocando el nombre de la tupla antes y entre los parentesis el elemento a contar. Devuelve la cantidad de dicho elemento.		Ej:    tupla.count(elem3)
+7- Para saber la cantidad total de elementos de una tupla, se usa el comando 'len()' ej: len(tupla)		devuelve la cantidad de elementos en la tupla.
+8- Si, se puede, se debe colocar el elemento entre parentesis, seguido de una coma. Ej:	tupla = (elem1,)
+9- Empaquetado de tupla se refiere a tomar variables individuales e ingresarlas dentro de una nueva tupla la cual se crea en ese momento (ya que no se puede modificar una existente)
+Ej: a,b,c = d 	o 	(a,b,c) = d
+10- El desempaquetado de tuplas consiste en "desarmar" una tupla asignando una variable a cada elemento que contenga. Estos deben ser de igual cantidad para que el sistema no arroje un error.
+Ej: 	tupla(elem1, elem2, elem3)
+	"Pedro", 275, [1,2,3] = tupla
+Se puede usar '*_' para evitar los elementos intermedios, por ej:
+	tupla = (10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190)
+	elem1, elem2, *_, elem18, elem19 = tupla
+
+
+
+DICCIONARIOS:
+1- Los diccionarios son estructuras de datos mapeadas que permite almacenar diferentes valores.
+Su sintaxis es la siguiente:	diccionario = {clave1:valor1, clave2:valor2, clave3:valor3}
+2- La principal caracteristica que tienen los diccionarios es que cada elemento se
+compone de una clave y un valor.
+3- En los diccionarios no se ordenan los elementos. Aparecen en orden aleatorio.
+4- Para imprimir el valor de un elemento, se llama utilizando la clave. Ej:
+	print(diccionario[clave1])	devuelve 'valor1'
+5- Para imprimir una clave, una opcion seria convertir el diccionario a una lista, ya que 
+de esa forma toma las claves y las convierte en elementos de la lista, y luego indexarla.
+6- Para agregar un elemento a un diccionario, se hace de la siguiente forma:
+	diccionario[claveX] = valorX
+  Tambien se puede utilizar el comando 'update()'
+  Ej: diccionario.update({clave9:valor9})
+7- Para modificar un elemento de un diccionario, se usa el mismo procedimiento
+anterior, pero escribiendo la clave que se desea reemplazar.
+8- Para eliminar un elemento se utiliza el comando 'del' por ejemplo:
+	del diccionario[clave5] o con el comando 'pop()'
+	dic.pop(claveX)
+9- Para asignar claves extraidas de una tupla, se debe indexar dicho elemento y llamarlo
+al crear el elemento del diccionario. Ej:
+	tupla = (a,b,c)
+	dic = {tupla[0]:valor}	o	dic[tupla[1]] = valor
+10- Para imprimir las claves se usa el comando 'print(dic.keys())'
+11- Para imprimir los valores se usa el comando 'print(dic.values())'
+12- Para unir dos diccionarios diferentes, o un diccionario mas un elemento, se usa
+el comando 'update()' ej:
+	dic3 = dic1.update(dic2)
+13- La funcion del comando 'get()' consiste en imprimir un valor solicitado, y en caso
+de que este no exista, devolverá 'None', salvo que se agregue un segundo parametro con
+un string predefinido. Ej:
+	dic.get(clave3, "No existe")

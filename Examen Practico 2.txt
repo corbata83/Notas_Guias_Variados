@@ -1,0 +1,58 @@
+02 EXAMEN PRACTICO TUPLAS - DICCIONARIOS
+
+
+Varios = ("Marcos", 3.75, "Maria", 3.75, 3.75, 2025, True, False, 3.75)
+print(Varios.index(2025))
+listanva = list(Varios)
+listanva.remove(False)
+Varios = tuple(listanva)
+print(Varios)
+print(type(Varios))
+print("Maria" in Varios)
+print(Varios.count(3.75))
+Unitario = (0.07,)
+print(Unitario)
+print(len(Varios))
+
+a = 38
+b = "Matias"
+c = 2023
+d = "Luna"
+
+Paquete = a,b,c,d
+print(Paquete)
+
+Edad, Jefe, Ingreso, Mascota = Paquete
+print(Edad, Jefe, Ingreso, Mascota)
+
+Colores = {"Amarillo":"Yellow", "Rojo":"Red", "Azul":"Blue", "Verde":"Green"}
+print(Colores)
+print(Colores["Verde"])
+Colores["Naranja"] = "Orange"
+Colores["Negro"] = "Black"
+print(Colores)
+Colores["Amarillo"] = "Yellowisky"
+print(Colores)
+Colores["Amarillo"] = "Yellow"
+del Colores["Azul"]
+print(Colores)
+ColoresT = "Morado", "Gris"
+Colores[ColoresT[0]] = "Purple"
+Colores[ColoresT[1]] = "Grey"
+print(Colores)
+print(Colores.keys())
+print(Colores.values())
+Colores2 = {"Celeste":"Light Blue", "Blanco":"White"}
+Colores.update(Colores2)
+print(Colores)
+print(Colores.get("Naranja"))
+print(Colores.get("Lila", "No existe el color"))
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+listavariada = ["Ana", 1192, "Lucas", 3.14, (1,2,"Yes"), ["Luna", "Cody"],64, True]
+listanombres = ["Ana", "Lucas", "Blas", "Dante", "Franco", "Carlos", "Enzo", "Tomas"]
+
+diccionario = {"Lucas":38, "Ana":25, "Pedro":40, "Dante":19, "Jere":51}
+
+matriz = [[1,2,3],[4,5,6],[7,8,9]]

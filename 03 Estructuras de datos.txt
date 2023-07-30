@@ -1,0 +1,13 @@
+1- ¿Que es una estructura de control en Python?
+Es un conjunto de reglas que permiten controlar el flujo de ejecución de las instrucciones de un
+algoritmo o de un programa.
+
+2- ¿Que tipos de estructuras de control existen?
+Existen 2 tipos de estructuras de control, las condicionales y las iterativas (o bucles)
+Las condicionales son las que nos permiten evaluar si una o mas condiciones se cumplen para
+decir que accion vamos a ejecutar. La evaluacion solo puede arrojar True o False.
+Las palabras reservadas para este tipo de estructura son "if", "elif" y "else".
+
+Las estructuras iterativas nos permiten ejecutar un mismo codigo de manera repetida, mientras
+se cumpla una condicion.
+Las palabras reservadas son "while" y "for"

@@ -1,0 +1,30 @@
+1- if - elif - else:
+Estructura de datos condicional que evalua si se cumple una condicion, en cuyo caso
+ejecuta las instrucciones de su bloque, o no, en cuyo caso ignora las instrucciones y continua el codigo.
+
+Sintaxis
+if 'condicion':
+	instrucciones
+elif 'otra condicion':
+	instrucciones
+else:			(en caso que no se cumplan las anteriores)
+	instrucciones
+
+
+2- While:
+Estructura de control iterativa (o bucle) que permite repetir la ejecucion de un grupo
+de instrucciones mientras se cumpla una condicion, es decir mientras la condicion sea True.
+
+Sintaxis:
+while 'condicion':
+	instrucciones
+
+
+3- For:
+Un bucle for es un bucle que repite el bloque de instrucciones un número prederminado de veces.
+
+Sintaxis:
+
+for 'variable' in 'elem'(lista,cadena,range,etc):
+	instrucciones
+	

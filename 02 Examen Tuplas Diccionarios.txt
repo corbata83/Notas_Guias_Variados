@@ -1,0 +1,69 @@
+EXAMEN TEORICO:
+
+TUPLAS
+
+1- ¿Que son las tuplas y cual es su sintaxis?
+2- Contestar verdadero o falso:
+	a- Se pueden modificar/editar
+	b- Son inmutables
+	c- Se pueden usar como keys en un diccionario
+	d- Se pueden indexar
+	e- Se pueden evitar los parentesis
+3- ¿Como se podria modificar una tupla?
+4- ¿Como se puede indexar un elemento de la tupla?
+5- ¿Como se puede consultar si hay un elemento determinado en una tupla?
+6- ¿Como se puede contar la cantidad de un mismo elemento en una tupla?
+7- ¿Como saber la cantidad de elementos totales de una tupla?
+8- ¿Se puede crear una tupla de un solo elemento?¿Como?
+9- ¿Que es el empaquetado de tuplas y como se realiza?
+10- ¿Que es el desempaquetado de tuplas y como se realiza?
+
+DICCIONARIOS:
+1- ¿Que son los diccionarios y cual es su sintaxis?
+2- ¿Cual es su principal caracteristica?
+3- ¿Como es el orden en los diccionarios?
+4- ¿Como se imprime un valor de un elemento de un diccionario?
+5- ¿Como se imprime una clave de un elemento de un diccionario?
+6- ¿Como se agrega un elemento a un diccionario?
+7- ¿Como se modifica un elemento de un diccionario?
+8- ¿Como se elimina un elemento de un diccionario?
+9- ¿Como se pueden asignar claves extraidas de una tupla o lista guardada?
+10- ¿Como se imprimen solo las claves?
+11- ¿Como se imprimen solo los valores?
+12- ¿Cual es el comando para fusionar dos diccionarios diferentes?
+13- ¿Cual es la funcion del comando 'get()' y cuantos parametros puede llevar?
+
+EXAMEN PRACTICO:
+1- Crear una tupla de nombre "Varios" con los siguientes elementos:
+"Marcos" - 3.75 - "Maria" - 3.75 - 3.75 - 2025 - True - False - 3.75
+2- Imprimir la ubicacion del elemento '2025'
+3- Buscar la forma de eliminar el elemento 'False' e imprimir
+4- Imprimir que tipo de dato es "Varios"
+5- Averiguar si el elemento "Maria" se encuentra en la tupla
+6- Imprimir la cantidad de veces que aparece el elemento '3.75'
+7- Crear una tupla de nombre "Unitario" con el elemento '0.07' e imprimir
+8- Imprimir el largo del contenido de "Varios"
+9- Empaquetar las siguientes variables en la tupla "Paquete" e imprimir:
+	a = 38 - b = "Matias" - c = 2023 - d = "Luna"
+10- Desempaquetar la tupla "Paquete" en las siguientes variables:
+	'Edad' - 'Jefe' - 'Ingreso' - 'Mascota'
+
+11- Crear un diccionario de nombre "Colores" con los siguientes colores
+y su equivalente en ingles:
+	Amarillo - Rojo - Azul - Verde
+12- Imprimir el valor en ingles de Verde
+14- Agregar al diccionario los colores Naranja y Negro con su traduccion
+15- Modificar un color cualquiera
+16- Corregir la modificacion anterior
+17- Eliminar el color Azul
+18- Crear una tupla de nombre "ColoresT" con los elementos:
+	Morado - Gris
+19- Añadir dichos colores al diccionario extrayendolos desde la tupla
+20- Imprimir claves y valores del diccionario, por separado
+21- Crear un diccionario de nombre "Colores2" con los colores:
+	Celeste - Blanco
+22- Fusionar "Colores" y "Colores2"
+23- Imprimir el significado de Naranja usando el comando 'get()'
+24- Imprimir el significado de Lila, de no encontrarse debera imprimir "No existe el color"
+
+
